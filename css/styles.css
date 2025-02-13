@@ -1,0 +1,41 @@
+html,
+body {
+    background-color: #272525;
+}
+
+#square {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: #00f;
+    width: 100px;
+    height: 100px;
+    animation: coolAnimation 15s 1s infinite alternate ease-in-out;
+}
+
+@keyframes coolAnimation {
+    0% {
+        top: 25px;
+        left: 25px;
+    }
+
+    25% {
+        top: 25px;
+        left: calc(100% - 125px);
+    }
+
+    50% {
+        top: calc(100% - 125px);
+        left: calc(100% - 125px);
+    }
+
+    75% {
+        top: calc(100% - 125px);
+        left: 25px;
+    }
+
+    100% {
+        top: 25px;
+        left: 25px;
+    }
+}
