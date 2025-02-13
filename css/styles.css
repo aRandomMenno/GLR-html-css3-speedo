@@ -17,25 +17,39 @@ body {
     0% {
         top: 25px;
         left: 25px;
+        rotate: 0deg;
+        background-color: #00f;
+        border-radius: 0;
     }
 
     25% {
         top: 25px;
         left: calc(100% - 125px);
+        rotate: 180deg;
+        border-radius: 16px;
+        scale: 1;
     }
 
     50% {
         top: calc(100% - 125px);
         left: calc(100% - 125px);
+        rotate: 90deg;
+        border-radius: 0;
+        scale: 1.3;
     }
 
     75% {
         top: calc(100% - 125px);
         left: 25px;
+        rotate: 0deg;
+        background-color: #00f;
+        scale: 0.7;
     }
 
     100% {
         top: 25px;
         left: 25px;
+        background-color: #ff0;
+        scale: 1;
     }
 }
