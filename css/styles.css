@@ -10,7 +10,7 @@ body {
     background-color: #00f;
     width: 100px;
     height: 100px;
-    animation: coolAnimation 7s 1s infinite alternate ease-in-out;
+    animation: coolAnimation 15s 1s infinite alternate ease-in-out;
     box-sizing: border-box;
 }
 
